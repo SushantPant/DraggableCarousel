@@ -4,13 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <script src="script.js" defer></script>
     <title>Draggable Carousel</title>
 </head>
 <body>
     <div class="carousel">
-        <div class="item top">1</div>
-        <div class="item middle">2</div>
-        <div class="item bottom">3</div>
+        <div class="item top">1
+            <div class="inner-box"></div>
+            <div class="circle"></div>
+            <div class="rectangle"></div>
+            <div class="rectangle small"></div>
+        </div>
+        <div class="item middle" draggable="true">2
+            <div class="inner-box"></div>
+            <div class="circle"></div>
+            <div class="rectangle"></div>
+            <div class="rectangle small"></div>
+        </div>
+        <div class="item bottom">3
+            <div class="inner-box"></div>
+            <div class="circle"></div>
+            <div class="rectangle"></div>
+            <div class="rectangle small"></div>
+        </div>
     </div>
+    <script src="script.js" defer></script>
 </body>
 </html>

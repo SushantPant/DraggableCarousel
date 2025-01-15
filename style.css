@@ -4,13 +4,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(135deg, #f15a24, #8e44ad);
     overflow: hidden; 
 }
 
 .carousel {
     position: fixed; 
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 400px;
     perspective: 1000px;
 }
 
@@ -19,6 +20,8 @@ body {
     width: 460px;
     height: 320px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.5rem;
     color: white;
     border-radius: 10px;
@@ -53,7 +56,7 @@ body {
     left: 20px;
     width: 90%;
     height: 40%;
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.3);
     border-radius: 15px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
@@ -64,7 +67,7 @@ body {
     left: 20px;
     width: 40px;
     height: 40px;
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.3);
     border-radius: 50%;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
@@ -75,7 +78,7 @@ body {
     left: 80px;
     width: 120px;
     height: 15px;
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }

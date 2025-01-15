@@ -2,6 +2,7 @@
 # Question A Vrit Technologies
 
 This project implements a simple carousel with drag-and-drop functionality for rearranging items visually. The carousel features smooth animations and dynamically updates the position, size, and opacity of items based on user interaction.
+Link: https://drive.google.com/file/d/18cxGNMYVAcnjOfLmqbkRYHFgKWT8jGQp/view
 
 # Features
 
